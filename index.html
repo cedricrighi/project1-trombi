@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Wild Code Faces</title>
+    <link rel="shortcut icon" href="./assets/icons/fav_icon.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <main>
+      <section class="wilder-card">
+        <div class="navigation">
+        <img
+          id="left-arrow"
+          src="./assets/icons/left-arrow.png"
+          alt="Flèche de navigation à gauche"
+        />
+        <img
+          id="closing-cross"
+          src="./assets/icons/croix.png"
+          alt="Croix de fermeture"
+        />
+        <img
+          id="right-arrow"
+          src="./assets/icons/right-arrow.png"
+          alt="Flèche de navigation à droite"
+        />
+        </div>
+        <div class="wilder-card-header wild-card-header-css">
+          <div class="icons genre">
+            <img
+              src="./assets/icons/whiteMale.png"
+              alt="gender icon"
+              class="icon-genre"
+            />
+            <p>Genre</p>
+          </div>
+          <div class="icons age">
+            <h3 class="wilder_age">39</h3>
+            <p>Âge</p>
+          </div>
+          <div class="icons stack">
+            <img 
+              src="./assets/icons/css_white.png"
+              alt="icon css"
+              class="icon-stack"
+            />
+            <p>Stack</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-card">
+            <img
+              src="./assets/images/abdou.png"
+              alt="photo abdou"
+              id="card-image"
+            />
+            <p class="wilder_name">Abdou Cissé</p>
+          </div>
+          <div class="details-card">
+            <div class="stats-card">
+              <div class="level html">
+                <p>HTML</p>
+                <div class="progress-bar">
+                  <div class="progress-bar-content html-content"></div>
+                </div>
+              </div>
+              <div class="level css">
+                <p>CSS</p>
+                <div class="progress-bar">
+                  <div class="progress-bar-content css-content"></div>
+                </div>
+              </div>
+              <div class="level js">
+                <p>JS</p>
+                <div class="progress-bar">
+                  <div class="progress-bar-content js-content"></div>
+                </div>
+              </div>
+            </div>
+            <div class="description">
+              <h2>Description :</h2>
+              <p id="p-description">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+                mollitia omnis? Laudantium culpa, provident porro eum, quas
+                facilis eaque consectetur voluptatem cum quidem quaerat sed
+                fugiat totam assumenda nam aperiam? Aut esse, ducimus iure magni
+                facere architecto ab quaerat! Labore unde sequi quaerat sint cum
+                cupiditate quibusdam! Repellendus ad, delectus incidunt eaque
+                fugiat blanditiis. Magni ratione illum veniam mollitia laborum?
+              </p>
+              <blockquote><i>Citation</i></blockquote>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blur-background"></section>
+
+      <section class="wilder-selection">
+        <p>Bienvenue à la Wild Code School<br />Promo Toulouse Septembre 2024</p>
+        <h1>Select your Wilder</h1>
+        <div class="grid"></div>
+      </section>
+      <div id="move">
+        <div class="pacman-body">
+          <div class="pacman">
+            <div class="pacman-mouth"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Made with ♡ by Emma - Cédric - Mike - Florentin</p>
+    </footer>
+    <script src="./src/script.js" type="module"></script>
+  </body>
+</html>
