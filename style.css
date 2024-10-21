@@ -244,6 +244,13 @@ h1 {
   cursor: url("./assets/icons/game.png"), auto;
 }
 
+.icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #closing-cross,
 #right-arrow,
 #left-arrow {
